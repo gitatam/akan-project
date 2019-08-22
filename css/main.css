@@ -1,4 +1,4 @@
-.main {
+body {
   background-color: 	#ADFF2F;
 }
 
@@ -24,4 +24,16 @@
   margin-top: 3px;
   font-size: 14pt;
   color:  white;
+}
+
+#results {
+  text-align: center;
+  margin-top: 15px;
+  background-color: #2E8B57;
+  font-family: 'Livvic', sans-serif;
+}
+h4 {
+  color:#8B0000;
+  font-weight: bold;
+  font-size: 14pt;
 }
