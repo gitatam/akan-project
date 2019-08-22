@@ -30,11 +30,11 @@
                 <h4 style="text-align:center">Birthdate Entry Form</h4>
 
                   <form id="bday-entry" autocomplete="off" onsubmit="return fetchAkanName()" method="post">
-                    <p>Day: &nbsp;&nbsp;&nbsp;&nbsp;<input style="align:right" type="text" name="day" autofocus required> </p>
-                    <p>Month: <input id="day" type="text" name="month" required> </p>
+                    <p>Day: &nbsp;&nbsp;&nbsp;&nbsp;<input id="day" style="align:right" type="text" name="day" autofocus required> </p>
+                    <p>Month: <input id="month" type="text" name="month" required> </p>
                     <p>Year: &nbsp;<input id="year" type="text" name="year" required> </p>
-                    <p>Gender: &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="male"> Male
-                              &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="female"> Female
+                    <p>Gender: &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="male" value="male"> Male
+                              &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="female" value="female"> Female
                     <p><input type="submit" name="submit" onclick="return fetchAkanName()" value="SUBMIT"></p>
 
                   </form>
@@ -139,4 +139,9 @@
 
     </div>
   </body>
+
+  <script src="js/scripts.js">
+
+  </script>
+
 </html>
