@@ -26,6 +26,10 @@ body {
   color:  white;
 }
 
+.card {
+  margin-top: 10px;
+}
+
 #results {
   text-align: center;
   margin-top: 15px;
@@ -62,7 +66,46 @@ input[type=submit] {
 }
 
 #story {
-  height: 310px;
+  height: 319px;
   overflow: auto;
+}
 
+#story p {
+  line-height: 200%;
+}
+
+table, th, td {
+  border: 1px solid white;
+  font-style: sans-serif;
+}
+
+table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background-color: white;
+  color: #2E8B57;
+}
+
+tr.odd {
+  background-color: #8FBC8F;
+}
+
+tr.even {
+  background-color: #98FB98;
+}
+
+th, td {
+  padding: 10px;
+}
+
+#story a {
+  text-decoration: none;
+}
+
+#story a:hover {
+  color: hotpink;
 }

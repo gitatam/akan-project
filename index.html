@@ -24,16 +24,16 @@
       <!--A section to show the main pages content-->
       <section id="maindiv">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-7">
             <div class="card">
               <div class="card-body">
                 <h4 style="text-align:center">Birthdate Entry Form</h4>
 
                   <form id="bday-entry" autocomplete="off" onsubmit="return fetchAkanName()" method="post">
-                    <p>Day: &nbsp;&nbsp;&nbsp;&nbsp;<input style="align:right" type="text" name="day" autofocus> </p>
+                    <p>Day: &nbsp;&nbsp;&nbsp;&nbsp;<input style="align:right" type="text" name="day" autofocus required> </p>
                     <p>Month: <input id="day" type="text" name="month" required> </p>
-                    <p>Year: &nbsp;&nbsp;&nbsp;<input id="year" type="text" name="year" required> </p>
-                    <p>Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="male"> Male
+                    <p>Year: &nbsp;<input id="year" type="text" name="year" required> </p>
+                    <p>Gender: &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="male"> Male
                               &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="female"> Female
                     <p><input type="submit" name="submit" onclick="return fetchAkanName()" value="SUBMIT"></p>
 
@@ -43,8 +43,8 @@
             </div>
           </div>
 
-          <div class="col-md-6" id="story">
-            <div class="card">
+          <div class="col-md-5">
+            <div class="card" id="story">
               <div class="card-body">
                 <h4 style="line-height:200%">Akan People</h4>
                 <p>
@@ -55,6 +55,70 @@
                   they were born.  <br><br>
                   Below is a table showing the 'day names' for the respective male and female genders.
                  </p>
+
+                 <table>
+
+                   <caption>akan day names</caption>
+                   <tr>
+                     <th>Day born</th>
+                     <th>Male name</th>
+                     <th>Female name</th>
+                   </tr>
+
+                   <tr class="odd">
+                     <td>Sunday</td>
+                     <td>Kwasi</td>
+                     <td>Akosua</td>
+                   </tr>
+
+                   <tr class="even">
+                     <td>Monday</td>
+                     <td>Kwadwo</td>
+                     <td>Adwoa</td>
+                   </tr>
+
+                   <tr class="odd">
+                     <td>Tuesday</td>
+                     <td>Kwabena</td>
+                     <td>Abenaa</td>
+                   </tr>
+
+                   <tr class="even">
+                     <td>Wednesday</td>
+                     <td>Kwaku</td>
+                     <td>Akua</td>
+                   </tr>
+
+                   <tr class="odd">
+                     <td>Thursday</td>
+                     <td>Yaw</td>
+                     <td>Yaa</td>
+                   </tr>
+
+                   <tr class="even">
+                     <td>Friday</td>
+                     <td>Kofi</td>
+                     <td>Afua</td>
+                   </tr>
+
+                   <tr class="odd">
+                     <td>Saturday</td>
+                     <td>Kwame</td>
+                     <td>Ama</td>
+                   </tr>
+
+                   <tr class="even">
+                     <td>Sunday</td>
+                     <td>Kwasi</td>
+                     <td>Akosua</td>
+                   </tr>
+                 </table>
+
+                 <p>More on Akan people below:<br>
+                   <a href="https://en.wikipedia.org/wiki/Akan_people" target="_blank">The meta-ethnicity and ethno-linguistic group - Akan. </a><br>
+                   <a href="https://www.britannica.com/topic/Akan" target="_blank">The Editors of Encyclopaedia Britannica - Akan People</a>
+                 </p>
+
               </div>
             </div>
           </div>
