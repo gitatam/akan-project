@@ -60,3 +60,9 @@ input[type=submit] {
   background-color: #2E8B57;
   border: none;
 }
+
+#story {
+  height: 310px;
+  overflow: auto;
+
+}
