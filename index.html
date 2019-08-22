@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Project AKAN</title>
     <link href="https://fonts.googleapis.com/css?family=Livvic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -23,22 +24,26 @@
       <!--A section to show the main pages content-->
       <section id="maindiv">
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-6">
             <div class="card">
               <div class="card-body">
-                <h2>Lorem Ipsum</h2>
-                  <ul>
-                    <li>Lorem ipsum dolor sit amet</li>
-                    <li>Consectetur adipiscing elit</li>
-                    <li>Integer finibus</li>
-                    <li>Nisl tempus semper semper</li>
-                    <li>Purus nisl hendrerit tellus</li>
-                  </ul>
+                <h4 style="text-align:center">Birthdate Entry Form</h4>
+
+                  <form id="bday-entry" autocomplete="off" onsubmit="return fetchAkanName()" method="post">
+                    <p>Day: &nbsp;&nbsp;&nbsp;&nbsp;<input style="align:right" type="text" name="day" autofocus> </p>
+                    <p>Month: <input id="day" type="text" name="month" required> </p>
+                    <p>Year: &nbsp;&nbsp;&nbsp;<input id="year" type="text" name="year" required> </p>
+                    <p>Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="male"> Male
+                              &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="female"> Female
+                    <p><input type="submit" name="submit" onclick="return fetchAkanName()" value="SUBMIT"></p>
+
+                  </form>
+
               </div>
             </div>
           </div>
 
-          <div class="col-md-5" >
+          <div class="col-md-6" >
             <div class="card">
               <div class="card-body">
                 <h2>Lorem Ipsum</h2>
