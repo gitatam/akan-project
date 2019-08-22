@@ -1,0 +1,111 @@
+body {
+  background-color: 	#ADFF2F;
+}
+
+.jumbotron {
+  margin-top: 50px;
+  background-color: #2E8B57;
+  font-family: 'Livvic', sans-serif;
+}
+
+.jumbotron h2 {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron h6 {
+  font-weight: bold;
+  margin: 0;
+  padding: 3px;
+}
+
+.jumbotron p {
+  margin-top: 3px;
+  font-size: 14pt;
+  color:  white;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+#results {
+  text-align: center;
+  margin-top: 15px;
+  background-color: #2E8B57;
+  font-family: 'Livvic', sans-serif;
+}
+h4 {
+  color:#8B0000;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#bday-entry{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+
+input[type=submit] {
+  align: left;
+  padding: 8px 16px;
+  margin: 2px 1px;
+  font-weight: bold;
+  width: 50%;
+  color: white;
+  text-decoration: none;
+  background-color: #2E8B57;
+  border: none;
+}
+
+#story {
+  height: 319px;
+  overflow: auto;
+}
+
+#story p {
+  line-height: 200%;
+}
+
+table, th, td {
+  border: 1px solid white;
+  font-style: sans-serif;
+}
+
+table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background-color: white;
+  color: #2E8B57;
+}
+
+tr.odd {
+  background-color: #8FBC8F;
+}
+
+tr.even {
+  background-color: #98FB98;
+}
+
+th, td {
+  padding: 10px;
+}
+
+#story a {
+  text-decoration: none;
+}
+
+#story a:hover {
+  color: hotpink;
+}
