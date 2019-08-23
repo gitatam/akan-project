@@ -56,25 +56,25 @@ function fetchAkanName(){
   if(_gender === "female" && _validDay && _validMonth){
     switch (_day_of_the_week){
       case 0:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + female_akan[6];
+      alert("Your Akan name is: " + female_akan[6]);
       break;
       case 1:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + female_akan[0];
+      alert("Your Akan name is: " + female_akan[0]);
       break;
       case 2:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + female_akan[1];
+      alert("Your Akan name is: " + female_akan[1]);
       break;
       case 3:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + female_akan[2];
+      alert("Your Akan name is: " + female_akan[2]);
       break;
       case 4:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + female_akan[3];
+      alert("Your Akan name is: " + female_akan[3]);
       break;
       case 5:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + female_akan[4];
+      alert("Your Akan name is: " + female_akan[4]);
       break;
       case 6:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + female_akan[5];
+      alert("Your Akan name is: " + female_akan[5]);
       break;
       default:
       alert("Wrong entries");
@@ -83,27 +83,25 @@ function fetchAkanName(){
   }else if (_gender === "male" && _validDay && _validMonth){
     switch (_day_of_the_week){
       case 0:
-      document.getElementById("output").innerHTML = "Your Akan name is: " + male_akan[6];
+      alert("Your Akan name is: " + male_akan[6]);
       break;
       case 1:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + male_akan[0];
-      alert("Born on Sunday");
+      alert("Your Akan name is: " + male_akan[0]);
       break;
       case 2:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + male_akan[1];
+      alert("Your Akan name is: " + male_akan[1]);
       break;
       case 3:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + male_akan[2];
       alert("Your Akan name is: " + male_akan[2]);
       break;
       case 4:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + male_akan[3];
+      alert("Your Akan name is: " + male_akan[3]);
       break;
       case 5:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + male_akan[4];
+      alert("Your Akan name is: " + male_akan[4]);
       break;
       case 6:
-      document.getElementById("output").innerHTML ="Your Akan name is: " + male_akan[5];
+      alert("Your Akan name is: " + male_akan[5]);
       break;
       default:
       alert("Check your browser settings");
